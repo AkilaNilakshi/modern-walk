@@ -21,6 +21,12 @@ body {
     font-size: 25px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover{
+    transform: scale(1.05);
 }
 
 .men {
@@ -38,7 +44,10 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 10px 15px 20px 0px #00000026;
-
+    transition: transform 0.3s ease;
+}
+.product-card:hover{
+    transform: scale(1.03);
 }
 
 .page-title {
