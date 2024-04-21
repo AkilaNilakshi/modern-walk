@@ -1,0 +1,121 @@
+@import '@fontsource/roboto';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.flex-group {
+    display: flex;
+}
+
+.category-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.men {
+    background-color: #2BD9AF;
+}
+
+.women {
+    background-color: #FF5E84;
+}
+
+.product-card {
+    width: 20%;
+    max-width: 20%;
+    background-color: #fff;    
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px 0px #00000026;
+
+}
+
+.page-title {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid #D9D9D9;
+}
+
+.main-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.prod-title {
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding: 20px;
+    height: 50px;
+}
+.desc-wrapper{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flash-sale-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+.product-card {
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.prod-price {
+    color: #0E42FD;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.prod-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.prod-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flash-sale-wrapper::-webkit-scrollbar-track{
+    background: #c5ced2 !important;
+    border-radius: 6px !important;
+  }
+  .flash-sale-wrapper::-webkit-scrollbar{
+    height: 8px;
+  }
+  .flash-sale-wrapper::-webkit-scrollbar-thumb{
+    background-color: #767474;
+    border-radius: 6px !important;
+    opacity: 0.8;
+    height: 41.3902px !important;
+  }
