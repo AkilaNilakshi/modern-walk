@@ -5,8 +5,13 @@ import './App.css';
 import './css/custom.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Clarity from '@microsoft/clarity';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const projectId = "s5g6h4nd0c";
+Clarity.init(projectId);
+
 root.render(
   <React.StrictMode>
     <App/>
