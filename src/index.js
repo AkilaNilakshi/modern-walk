@@ -6,6 +6,7 @@ import './css/custom.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Clarity from '@microsoft/clarity';
+import ClarityTestPage from './components/clarityTestPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,7 +15,7 @@ Clarity.init(projectId);
 
 root.render(
   <React.StrictMode>
-    <App/>
+    <ClarityTestPage/>
   </React.StrictMode>
 );
 
