@@ -41,3 +41,6 @@ const filteredFlashSaleProducts = flashSaleProducts.filter((prod)=> (prod.catego
 }
 
 export default Home;
+
+
+

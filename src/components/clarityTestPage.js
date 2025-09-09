@@ -2,38 +2,32 @@ import React from "react";
 
 const ClarityTestPage = () => {
     return (
-        <div>
-            <div class="header">
-                <h2>Sample Site</h2>
-            </div>
-
-            <div class="nav">
-                <a href="#">Home</a>
-                <a href="#">Product</a>
-                <a href="#">About</a>
-                <a href="#">Service</a>
-                <a href="#">Account</a>
-            </div>
-
-            <div class="hero">
-                <h1>Welcome</h1>
-                <button class="btn">Click Here</button>
-                <button class="btn">Know More</button>
-            </div>
-
-            <div class="content">
-                <p>
-                    This is a random paragraph with lots of content to test if the user scrolls or gets distracted.
-                    This paragraph repeats. This is a random paragraph with lots of content to test if the user scrolls or gets distracted.
-                    This paragraph repeats.
-                </p>
-            </div>
+        <div className="container">
 
             <div class="form-section">
-                <h3>Sign Up</h3>
-                <input type="text" placeholder="username" required />
-                <input type="password" placeholder="password" required />
-                <button class="btn" type="button">Submit</button>
+                <div class="form-container">
+                    <h2>Sign Up</h2>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" id="confirm" placeholder="Confirm password" />
+                    </div>
+                    <div>
+                        <button class="submit-btn">Submit</button>
+                        <button class="verify-btn">Verify Email</button>
+                    </div>
+                </div>
             </div>
             <footer>
                 © 2025 All rights reserved | Contact | Terms
@@ -43,3 +37,6 @@ const ClarityTestPage = () => {
 }
 
 export default ClarityTestPage;
+
+
+
